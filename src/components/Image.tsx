@@ -11,7 +11,7 @@ const Image: React.FC<Props> = (props: Props) => {
       <img
         className="rounded-full shadow-lg"
         src={props.user.picture.large}
-        alt="model"
+        alt={props.user.name.toString()}
       />
       <div className="p-4 rounded-lg mt-4 text-center">
         <h6 className="text-left font-medium">
